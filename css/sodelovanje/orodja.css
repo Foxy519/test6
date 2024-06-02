@@ -1,0 +1,103 @@
+/* podnaslovi */
+h3{
+	padding-left: 15px;
+	color: #14113D;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.samo_besedilo{padding-left: 15px;}
+
+
+/* seznam */
+.opis_engina{
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
+	text-align: justify;
+}
+.opis_engina li{
+	margin-bottom: 20px;
+}
+
+.odebeljeno{font-weight: bold;}
+
+
+/* ločilna črta */
+.crta{
+	margin-top: 30px;
+	border-top: dotted 6px black;
+	height: 0;
+}
+
+
+/* povezave */
+h2 a{
+	color: #14113D;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2 a:visited{
+	color: #14113D;
+}
+
+
+
+/* SLIKE */
+.unity_slika{
+	width: 381.36px;
+	height: 128.88px;
+}
+
+.slika_unreal{
+	width: 195.12px;
+	height: 203.04px;
+}
+
+/* primerjava */
+#primerjava{padding-left: 15px;}
+
+.center{margin: auto;}
+
+#video_besedilo{
+	margin-top: 20px;
+}
+
+
+/* GALERIJA SLIK */
+#galerija_slik{
+	border-top: dotted 6px white;
+	height: 300px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	box-shadow: 6px 3px 0 black;
+	background: rgb(95, 199, 228);
+}
+
+#galerija_slik #galerija_seznam{list-style-type: none;}
+
+#galerija_slik #galerija_seznam li{
+	float: left;
+	background-color: white;
+	margin-left: 55px;
+	margin-top: 35px;
+	padding: 10px;
+	width: 230px;
+	height: 230px;
+	border: 2px solid black;
+	transition: 0.5s;
+}
+
+
+#galerija_slik #galerija_seznam li:hover{
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+
+
+.galerija_slike{
+	width: 210px;
+	height: 210px;
+}

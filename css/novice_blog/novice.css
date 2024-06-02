@@ -1,0 +1,14 @@
+/* Novice okvir */
+.novica{
+	border: solid 2px black;
+	font-family: Poppins, sans-serif;
+}
+
+/* datumi novic */
+.odebeljeno{font-weight: bold;}
+
+
+/* Novice slike */
+.slike{
+	margin: 35px 20px;
+}

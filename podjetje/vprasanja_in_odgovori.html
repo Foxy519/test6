@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="sl">
+	<head>
+		<title> Foxgum Games | Vprašanja in odgovori </title>
+		<meta charset="utf-8">
+		<meta name="author" content="Maša Žvan"> 
+		<meta name="keywords" content="igre, e-šport">
+		<meta name="description" content="Website for creating games">
+		
+		<!-- Ikona spletišča -->
+		<link rel="icon" href="../slike/logo/slikovni_logo.png" type="image/x-icon">
+		
+		
+		<!-- Google pisava: Raleway -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		
+		<!-- Google pisava: Ubuntu
+Static -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+		
+		<!-- Google pisava: Poppins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+		
+		
+		<!-- Ikone bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!-- CSS: glava -->
+		<link rel="stylesheet" type="text/css" href="../css/splosno/menu.css">
+		
+		<!-- CSS: noga -->
+		<link rel="stylesheet" type="text/css" href="../css/splosno/foot.css">
+		
+		
+		<!-- CSS: zacetni del -->
+		<link rel="stylesheet" type="text/css" href="../css/splosno/zacetni_del.css">
+		
+		<!-- CSS: zacetni del -->
+		<link rel="stylesheet" type="text/css" href="../css/index/style.css">
+		
+		<!-- CSS: vprasanja in odgovori -->
+		<link rel="stylesheet" type="text/css" href="../css/podjetje/vprasanja_in_odgovori.css">
+		
+		
+	</head>
+		
+	<body>
+		<!-- MENI SPLETNE STRANI -->
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">	
+				<div class="navbar-header">
+					<!-- gumb za spustni meni na ekranih -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meni">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                    
+					</button>
+					
+					
+					<!-- LOGOTIP Foxy Games -->
+					<a class="navbar-brand" href="../index.html"><img src="../slike/logo/logo.jpg" alt="Foxy Games logotip" id="logo_slika"></a>
+				</div>
+				  
+				<!-- meni, ki se na manjših zaslonih skrči -->			
+				<div class="collapse navbar-collapse" id="meni">
+					<ul class="nav navbar-nav navbar-right">
+					    <li><a href="../index.html"> Domov</a></li>
+					  
+					  
+					    <li class="dropdown"><a class="dropdown-toggle active_dropown" data-toggle="dropdown"> Podjetje <span class="caret"></span></a>
+						<!-- spustni meni: PODJETJE -->
+						<ul class="dropdown-menu">
+						    <li><a href="../podjetje/o_nas.html"> O nas </a></li>
+						    <li><a href="../podjetje/lokacije.html"> Lokacije</a></li>
+						    <li><a href="../podjetje/vprasanja_in_odgovori.html"> Vprašanja & Odgovori </a></li>
+						</ul>
+						</li>
+					  
+						<li><a href="../dogodki/dogodki.html">Dogodki </a></li>
+					  
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"> Sodelovanje <span class="caret"></span></a>
+						<!-- spustni meni: SODELOVANJE	 -->
+						<ul class="dropdown-menu">
+							<li><a href="../sodelovanje/izdelajmo_igro.html"> Izdelajmo igro </a></li>
+							<li><a href="../sodelovanje/orodja.html"> Orodja </a></li>
+							<li><a href="../sodelovanje/zaposlitev_mentorstvo.html"> Zaposlitev/Mentorstvo </a></li>
+						</ul>
+						</li>
+					  
+						<li><a href="../novice_in_blog/novice.html">Novice & Blog </a></li>
+					  
+						<li><a href="../cenik/cenik.html">Cenik </a></li>
+					</ul>
+				</div>	
+				</div>		
+			</nav>
+		</header>
+		
+		
+		<section class="okvir">
+			<!-- Pozdrav obiskovalcem spletne strani -->
+			<div class="zacetni_del">
+				<h1> Tukaj boste našli odgovore na pogosta vprašanja<br>o našem podjetju.</h1>
+			</div>
+			
+			
+			<div class="container">
+				<!-- Vsa vprašanja -->
+				<div class="row">
+					<h2>Seznam vprašanj</h2>
+					
+					<ol id="seznam_vseh_vprašanj">
+						<li class="ostevilcenje"><a href="#splosno">Splošno o podjetju:</a></li>
+						<li class="brez_st"><ul>
+							<li >Kako dolgo že obstaja vaše podjetje?</li>
+							<li>Kje se nahaja vaš sedež?</li>
+						</ul></li>
+						
+						<li class="ostevilcenje"><a href="#razvoj_iger">Razvoj iger:</a></li>
+						<li class="brez_st"><ul>
+							<li>Katere vrste iger razvijate?</li>
+							<li>Kako dolgo traja razvoj ene igre?</li>
+						</ul></li>
+						
+						<li class="ostevilcenje"><a href="#tehnologija">Tehnologija:</a></li>
+						<li class="brez_st"><ul>
+							<li>Katere tehnologije uporabljate pri razvoju iger?</li>
+							<li>Kako sledite najnovejšim tehnološkim trendom v industriji?</li>
+						</ul></li>
+					</ol>
+				</div>
+				
+				
+				<!-- VPRAŠANJA: Splošno o podjetju -->
+				<div class="row">
+					<h2 id="splosno">Splošno o podjetju:</h2>
+					
+					<dl class="vprašanja">
+						<dt> Kako dolgo že obstaja vaše podjetje? </dt>     
+						<dd> Podjetje Foxy Games deluje že od leta 2010. V več kot desetih letih smo se razvili iz majhne pisarne v uspešno in uveljavljeno ekipo. Sledili smo svoji strasti do ustvarjanja vrhunskih videoiger in sodelovali z uglednimi partnerji. Naša predanost kvaliteti in inovativnost sta nas pripeljali do številnih uspehov.</dd>
+						<dt> Kje se nahaja vaš sedež? </dt>     
+						<dd> Naš sedež se nahaja v Ljubljani, kjer ustvarjamo in razvijamo naše inovativne videoigre. Poleg tega imamo tudi pisarno v Mariboru, čeprav to ni naš glavni sedež. Ljubljana nam omogoča dostop do številnih talentov in tesno sodelovanje s partnerji iz različnih delov industrije. Veselimo se vašega obiska! </dd>
+					</dl> 
+				</div>
+				
+				
+				<!-- VPRAŠANJA: Razvoj iger -->
+				<div class="row">
+					<h2 id="razvoj_iger">Razvoj iger:</h2>
+					
+					<dl class="vprašanja">
+						<dt> Katere vrste iger razvijate? </dt>     
+						<dd> Ustvarjamo širok spekter iger, ki zajema različne žanre, vključno s FPS (First-Person Shooter) igrami, ki ponujajo intenzivne akcijske izkušnje, RPG (Role-Playing Games) igrami, ki omogočajo raziskovanje bogatih svetov in razvoj likov. Prav tako razvijamo Visual Novel igre, osredotočene na zgodbo in likovno predstavitev, ter Puzzle igre, ki izzivajo miselne sposobnosti igralcev. Poleg tega ponujamo Racing igre z adrenalinskimi dirkami in Sandbox igre, kjer igralci lahko ustvarjajo in raziskujejo po lastnih željah. </dd>
+						<dt> Kako dolgo traja razvoj ene igre? </dt>     
+						<dd> Razvoj ene igre lahko traja od nekaj mesecev do več let, odvisno od kompleksnosti in obsega projekta. Manjše igre z osnovno mehaniko se lahko razvijejo v nekaj mesecih, medtem ko lahko večji, bolj zapleteni projekti, ki vključujejo napredne funkcije, podrobno grafiko in obsežne zgodbe, zahtevajo več let razvoja. </dd>
+					</dl> 
+				</div>
+				
+				
+				<!-- VPRAŠANJA: Tehnologija -->
+				<div class="row">
+					<h2 id="tehnologija">Tehnologija:</h2>
+					
+					<dl class="vprašanja">
+						<dt> Katera orodja uporabljate pri razvoju iger? </dt>     
+						<dd> Pri razvoju naših iger uporabljamo vrhunska orodja, kot so Unity, Unreal Engine in Godot. Vsako od teh orodij nam omogoča, da ustvarjamo edinstvene in visokokakovostne igre, prilagojene različnim potrebam in željam naših strank. </dd>
+						<dt> Kako sledite najnovejšim tehnološkim trendom v industriji? </dt>     
+						<dd> Sledenje najnovejšim tehnološkim trendom v industriji je za nas ključno. Redno se udeležujemo strokovnih konferenc, delavnic in seminarjev, kjer pridobivamo nova znanja in vpoglede. Prav tako tesno sodelujemo s tehnološkimi partnerji in spremljamo najnovejše publikacije ter raziskave na področju razvoja iger. Naša ekipa stalno preizkuša nove tehnologije in orodja, da zagotovimo, da ostajamo na čelu inovacij v industriji. </dd>
+					</dl> 
+				</div>
+				
+				
+			</div>
+		</section>
+		
+		
+		
+		
+		<!-- NOGA SPLETNE STRANI -->
+		<footer class="container-fluid text-center">
+		
+			<div class="text-center">
+				Copyright © 2024 Foxy Games
+			</div>
+			
+			<div class="text-center mail">
+				<a href="mailto:foxy.games@info.com">foxy.games@info.com</a>
+			</div>
+			
+			<!-- ikone za socialna omrežja -->
+			<div class="text-center ikone">
+			
+				<a href="#" data-toggle="tooltip" data-placement="top" title="instagram"><i class="bi bi-instagram"></i></a>
+				
+				<a href="#" data-toggle="tooltip" data-placement="top" title="snapchat"><i class="bi bi-snapchat"></i></a>
+				
+				<a href="#" data-toggle="tooltip" data-placement="top" title="discord"><i class="bi bi-discord"></i></a>
+			</div>
+
+		</footer>
+		
+		
+	
+		
+		<!-- jQuery in Bootstrap JS. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>

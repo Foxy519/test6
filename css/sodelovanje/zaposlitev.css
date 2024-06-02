@@ -1,0 +1,62 @@
+/* podnaslovi */
+h3{
+	padding-left: 0;
+	color: #14113D;
+}
+
+/* seznam vseh delovnih mest */
+#odprta_delovna_mesta{
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
+	color: black;
+}
+
+#odprta_delovna_mesta li{margin-top: 20px;}
+
+
+/* opisni seznam */
+#odprta_delovna_mesta li a, #odprta_delovna_mesta{
+	color: #14113D;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+#odprta_delovna_mesta li a:hover{
+	text-decoration: none;
+}
+
+#odprta_delovna_mesta li a:active{
+	font-weight: bold;
+}
+
+#odprta_delovna_mesta li a:visited{
+	color: #14113D;
+}
+
+
+dt{
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+dd{
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+
+/* seznam v opisnem seznamu(opis delovnih mest) */
+dl dd ul{
+	list-style: none;
+	margin-top: 0px;
+}
+
+dl dd ul li{padding-top: 15px;}
+
+dl dd ul li::before{
+	content: url(../../slike/seznam/puscica.png);
+	padding-right: 10px;
+	
+}

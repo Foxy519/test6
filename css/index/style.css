@@ -1,0 +1,126 @@
+/* okvir z besedilom */
+.container {
+    width: 1450px;
+}
+
+
+/* Naslovi */
+h2{
+	color: #14113D;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+
+/* Besedilo */
+p{
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
+	text-align: justify;
+}
+
+
+/* odebeljeno besedilo */
+.odebeljeno{font-weight: bold;}
+
+
+/* postavitev odsekov */
+.row:first-child{margin-top: 30px;}
+.row{margin-top: 40px;}
+.row:last-child{margin-bottom: 40px;}
+
+
+/* poravnava gumbov za pošilnjanje na nove spletne strani */
+.povezi_spletno_stran{
+	color: rgb(95,199,228);
+	font-size: 17px;
+	float: right;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.povezi_spletno_stran:hover{
+	color: rgb(95, 199, 228);
+	text-decoration: none;
+}
+
+.povezi_spletno_stran:active{
+	font-weight: bold;
+}
+
+.povezi_spletno_stran:visited{
+	color: rgb(95,199,228);
+}
+
+
+/* mnenje uporabnikov okvir */
+.mnenje{
+	margin: 0 60px;
+	height: 520px;
+	padding: 30px;
+	border: solid silver 2px;
+}
+
+.ime{
+	margin-top: 20px;
+	color: #b7b7c4;
+}
+
+.novice_blog_besedilo{margin-top: 200px;}
+
+/* popravilo gumba poglej več novice */
+#novice{margin-top: 100px;}
+
+/* ----------------------------------------------- */
+/* SLIKE: */
+#slika_logo, .slika_stolpec{
+	margin-top: 53px;
+	margin-left: 15px;
+	width: 198.66px;
+	height: 207.06px;
+	border-radius: 10px;
+}
+
+#slika_ustanoviteljica{
+	margin-top: 53px;
+	margin-left: 15px;
+	width: 199.98px;
+	height: 224.4px;
+}
+
+.okvir_slika_novice, .okvir_slika_blog{
+	width: 700px;
+	height: 183px;
+	margin-bottom:20px;
+	position: absolute;
+}
+
+
+.okvir_slika_blog img{
+	position: relative;
+	left: 118.35px;
+}
+
+
+.okvir_slika_novice img{
+	float: left;
+	margin-left: 55px;
+}
+
+
+.slika_mnenje_moski, .slika_mnenje_zenska{
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.slika_mnenje_moski{
+	width: 126.42px;
+	height:138.6px;
+}
+
+.slika_mnenje_zenska{
+	width: 138.18px;
+	height:157.08px;
+}

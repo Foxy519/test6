@@ -1,0 +1,21 @@
+/* okvir noge spletne strani */
+footer {
+   min-height: 80px;
+   color: #aeacc2;
+   padding: 15px 0;
+}
+
+/* oblikovanje ikon */
+.bi{color: #aeacc2;}
+.bi:hover{color: white;}
+
+/* oblikovanje mail povezave */
+.mail a{
+	font-size: 13px;
+	color: #aeacc2;
+}
+
+.mail a:hover{
+	color: white;
+	text-decoration: none;
+}

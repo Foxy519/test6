@@ -1,0 +1,102 @@
+/* Navigacijska vrstica */
+.container-fluid{
+	background-color: #14113D;
+	height: 90px;
+}
+
+.navbar{
+	margin-bottom: 0;
+	border: none;
+	border-radius: 0;
+}
+
+
+/* Postavitev logotipa */
+#logo_slika{
+	position: relative;
+	top: 0;
+	width: 111.6px;
+	height: 73.44px;
+}
+
+.navbar .container-fluid .navbar-header a{padding-top: 8px;}
+
+
+/* Navigacijski zavihki */
+.navbar .container-fluid #meni{
+	margin-top: 19px;
+	font-family: Raleway, sans serif;
+}
+
+.navbar-inverse .navbar-nav > li > a{color: #aeacc2;}
+
+
+
+/* označen zavihek */
+.navbar-inverse .navbar-nav .active a{
+	background-color: white;
+	color: #14113D;
+	margin-top: -20px;
+	padding-top: 35px;
+}
+
+
+.navbar-inverse .navbar-nav .active_dropown{
+	background-color: white;
+	color: #14113D;
+	margin-top: -20px;
+	padding-top: 35px;
+}
+
+
+.navbar-inverse .navbar-nav > .active:hover a{
+	background-color: white;
+	color: #14113D;
+	cursor: default;
+}
+
+
+.navbar-inverse .navbar-nav .active_dropown:hover{
+	background-color: white;
+	color: #14113D;
+	margin-top: -20px;
+	padding-top: 35px;
+}
+
+
+
+
+/* dropdown menu */
+.dropdown-menu{
+	background-color: #14113D;
+	box-shadow: none;
+	border: none;
+}
+
+/* dropdown menu: postavitev menija na levo stran besedila */
+.navbar-right .dropdown-menu{
+	left: 0;
+	right: auto;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 20px;
+}
+
+
+.dropdown-menu li a{color: white;}
+.dropdown-menu li:hover a{color: #14113D;}
+
+
+
+/* izbranje dropdown */
+.navbar-inverse .navbar-nav > .open > a{
+	color: white;
+	font-weight: bold;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .open:hover > a{
+	background-color: transparent;
+}
+

@@ -1,0 +1,59 @@
+/* oblikovanje seznama lokacij */
+.seznam, .podatki{
+	list-style: none;
+	margin-bottom: 30px;
+	font-size: 26px;
+	font-family: Poppins, sans-serif;
+}
+
+.seznam:last-child{margin-bottom: 0;}
+
+
+.seznam li::before{
+	content: url(../../slike/seznam/puscica.png);
+	padding-right: 10px;
+}
+
+
+/* razmik med lokacijami */
+.row{margin-bottom: 100px;}
+.row:first-child{margin-bottom: 40px;}
+.podatki li:first-child{margin-top: 35px;}
+
+/* razmik med podatki */
+.telefon{margin-top: 30px;}
+
+
+/* oblikovanje slik lokacij */
+.slika_lokacije{
+	width: 600px;
+	height: 400px;
+	margin-top: 30px;
+}
+
+
+/* povezava do maila */
+.podatki li a{
+	color: rgb(95,199,228);
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.podatki li a:hover{
+	color: rgb(95, 199, 228);
+	text-decoration: none;
+}
+
+.podatki li a:active{
+	font-weight: bold;
+}
+
+.podatki li a:visited{
+	color: rgb(95,199,228);
+}
+
+/* ločenje lokacij */
+.crta{
+	border-top: dotted 6px black;
+	height: 0;
+}

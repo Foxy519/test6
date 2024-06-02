@@ -1,0 +1,56 @@
+/* oblikovanje pisave pri seznamu vprašanj */
+#seznam_vseh_vprašanj, .vprašanja{
+	font-size: 20px;
+	list-style: none;
+}
+#seznam_vseh_vprašanj ul li, .vprašanja dd{font-family: Poppins, sans-serif;}
+
+/* vsa vprašanja */
+#seznam_vseh_vprašanj li a, #seznam_vseh_vprašanj .ostevilcenje{
+	color: #14113D;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.brez_st{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+/* vsa vprašanja: linki do vprašanj */
+#seznam_vseh_vprašanj li a:hover, #seznam_vseh_vprašanj .ostevilcenje{
+	text-decoration: none;
+}
+
+#seznam_vseh_vprašanj li a:active, #seznam_vseh_vprašanj .ostevilcenje{
+	font-weight: bold;
+}
+
+#seznam_vseh_vprašanj li a:visited, #seznam_vseh_vprašanj .ostevilcenje{
+	color: #14113D;
+}
+
+
+/* vsa vprašanja: oblikovanje seznama */
+#seznam_vseh_vprašanj ul{
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+#seznam_vseh_vprašanj ul:last-child{margin-bottom: 0;}
+
+#seznam_vseh_vprašanj ul li::before{
+	content: url(../../slike/seznam/puscica.png);
+	padding-right: 10px;
+}
+
+/* odgovori in vprašanja(neurejen seznam) */
+.vprašanja dt{
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.vprašanja dd{
+	margin-bottom: 40px;
+}

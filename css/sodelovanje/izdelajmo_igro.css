@@ -1,0 +1,72 @@
+/* okvir z obrazcem */
+form{
+	margin-top: 40px;
+	font-size: 17px;
+}
+
+form textarea, form select, form input{
+	margin-bottom: 30px;
+	font-size: 19px;
+}
+
+
+/* opisi okvirjev */
+form label{
+	color: black;
+	font-family: Poppins, sans-serif;
+	margin-right: 10px;
+}
+
+
+
+/* zvezda - obvezno izpolni */
+.zvezda{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.prva_zvezda{
+	margin-left: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.del_obrazca .zvezda{margin-right: 100px;}
+
+
+#description{
+	width: 550px;
+	height: 150px;
+}
+
+/* --------------------------------------- */
+/* OBLIKOVANJE GUMBA ZA POŠILJANJE IN PONASTAVITEV */
+/* Gumba za premikanje med novicami in blogom */
+#gumb_container button{
+	position: relative;
+	left: 0;
+	padding: 10px 40px;
+	font-size: 20px;
+	font-family: Outfit;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	box-shadow: 4px 4px 0 black;
+}
+
+
+#gumb_container button:hover{
+	text-decoration: none;
+	box-shadow: 0px 0px 0 black;
+	font-weight: bold;
+	color: white;
+	font-weight: bold;
+	background-color: #14113D;
+}
+
+
+/*razmik med gumboma*/
+#gumb_container button:first-child {margin-right: 70px;}
